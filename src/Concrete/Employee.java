@@ -1,23 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package Concrete;
 
-/**
- *
- * @author bkling
- */
 public class Employee {
     //Properties of an Employee
+
     private String firstName;
     private String lastName;
     private String Ssn;
     private int age;
     private String hireDate;
-    
-    //Setters and the Getters for the Properties
 
+    //Setters and the Getters for the Properties
     public String getFirstName() {
         return firstName;
     }
@@ -61,5 +53,5 @@ public class Employee {
     public void setHireDate(String hireDate) {
         //Validation Needed
         this.hireDate = hireDate;
-    }  
+    }
 }

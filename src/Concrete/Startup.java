@@ -1,6 +1,5 @@
 package Concrete;
 
-
 public class Startup {
 
     public static void main(String[] args) {
@@ -22,7 +21,7 @@ public class Startup {
         System.out.println("Hire Date: " + he.getHireDate());
         System.out.println("Hourly Wage: $" + he.setHourlyWage(8.49));
         System.out.println("");
-        
+
         //This is the Salaried Employee class
         SalariedEmployee se = new SalariedEmployee();
         se.setFirstName("Brian Kling");
@@ -30,7 +29,7 @@ public class Startup {
         se.setSsn("987-65-4321");
         se.setAge(51);
         se.setHireDate("04/15/1972");
-        
+
         //Print out the Information
         //**This is not how you should print it out, you should use a loop**
         System.out.println("Salaried Employee");
@@ -40,7 +39,7 @@ public class Startup {
         System.out.println("Hire Date: " + se.getHireDate());
         System.out.println("Salary: $" + se.setSalary(48000));
         System.out.println("");
-        
+
         //This is the Salaried Bonus Employee class
         SalaryPlusBonusEmployee spbe = new SalaryPlusBonusEmployee();
         spbe.setFirstName("Betsy");
@@ -48,7 +47,7 @@ public class Startup {
         spbe.setSsn("159-25-7931");
         spbe.setAge(25);
         spbe.setHireDate("06/25/2012");
-        
+
         //Print out the Information
         //**This is not how you should print it out, you should use a loop**
         System.out.println("Full Name: " + spbe.getFirstName() + " " + spbe.getLastName());
@@ -57,7 +56,7 @@ public class Startup {
         System.out.println("Hire Date: " + spbe.getHireDate());
         System.out.println("Salary Bonus: $" + spbe.setBonus(5000));
         System.out.println("");
-        
-        
+
+
     }
 }
