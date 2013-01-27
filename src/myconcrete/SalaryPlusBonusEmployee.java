@@ -1,4 +1,4 @@
-package Concrete;
+package myconcrete;
 
 public class SalaryPlusBonusEmployee extends SalariedEmployee {
     //Give the Salray Plus Bonus Employee the properites of the Salaried Employee invisibly

@@ -1,4 +1,4 @@
-package Concrete;
+package myconcrete;
 
 public class HourlyEmployee extends Employee {
     //Give the Hourly Employee the properites of the Employee invisibly

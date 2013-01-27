@@ -1,15 +1,14 @@
-package Concrete;
+package myinterface;
 
-public class Employee {
-    //Properties of an Employee
+public class HourlyEmployee implements Employee {
 
     private String firstName;
     private String lastName;
     private String Ssn;
     private int age;
-    private String hireDate;
+    private double wage;
+    private String name = firstName + lastName;
 
-    //Setters and the Getters for the Properties
     public String getFirstName() {
         return firstName;
     }
@@ -46,12 +45,29 @@ public class Employee {
         this.age = age;
     }
 
-    public String getHireDate() {
-        return hireDate;
+    public double getWage() {
+        return wage;
     }
 
-    public void setHireDate(String hireDate) {
-        //Validation Needed
-        this.hireDate = hireDate;
+    public void setWage(double wage) {
+        this.wage = wage;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String getFirstName(String firstName) {
+        return firstName;
+    }
+
+    @Override
+    public double getWage(double wage) {
+        return wage;
     }
 }
