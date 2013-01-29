@@ -32,21 +32,20 @@ public class HourlyEmployee extends Employee {
         this.Ssn = Ssn;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public double getWage() {
+        return wage;
     }
 
     public void setWage(double wage) {
         this.wage = wage;
     }
-
-    @Override
-    public void getWage() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    @Override
-    public void getAge() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+   
 }

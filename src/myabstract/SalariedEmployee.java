@@ -6,7 +6,7 @@ public class SalariedEmployee extends Employee {
     private String lastName;
     private String Ssn;
     private int age;
-    private double wage;
+    private double salary;
 
     public String getFirstName() {
         return firstName;
@@ -36,17 +36,16 @@ public class SalariedEmployee extends Employee {
         this.age = age;
     }
 
-    public void setWage(double wage) {
-        this.wage = wage;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
-    @Override
-    public void getWage() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public int getAge() {
+        return age;
     }
 
-    @Override
-    public void getAge() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public double getSalary() {
+        return salary;
     }
-}
+    
+    }
