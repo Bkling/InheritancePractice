@@ -1,7 +1,7 @@
 package myabstract;
 
 public class Startup {
-
+    
     public static void main(String[] args) {
         //This is the Hourly Employee class
         HourlyEmployee he = new HourlyEmployee();
@@ -19,6 +19,7 @@ public class Startup {
         System.out.println("Age: " + he.getAge());
         System.out.println("SSN: " + he.getSsn());
         System.out.println("Hourly Wage: $" + he.getWage());
+        System.out.println("Employee ID: " + he.setEmpId("6321"));
         System.out.println("");
 
         //This is the Salaried Employee class
@@ -36,6 +37,7 @@ public class Startup {
         System.out.println("Age: " + se.getAge());
         System.out.println("SSN: " + se.getSsn());
         System.out.println("Salary: $" + se.getSalary());
+        System.out.println("Employee ID: " + se.setEmpId("9512"));
         System.out.println("");
 
         //This is the Salaried Bonus Employee class

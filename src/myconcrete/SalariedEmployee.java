@@ -7,4 +7,8 @@ public class SalariedEmployee extends Employee {
     public double setSalary(double salary) {
         return salary;
     }
+
+    public String setEmployeeID(String empId) {
+        return empId;
+    }
 }

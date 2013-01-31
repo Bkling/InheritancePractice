@@ -47,4 +47,6 @@ public abstract class Employee {
     public void setWage(double wage) {
         this.wage = wage;
     }
+
+    public abstract String setEmpId(String EmpId);
 }

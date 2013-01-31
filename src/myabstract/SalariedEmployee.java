@@ -11,4 +11,9 @@ public class SalariedEmployee extends Employee {
     public double getSalary() {
         return salary;
     }
+
+    @Override
+    public String setEmpId(String EmpId) {
+        return EmpId;
+    }
 }

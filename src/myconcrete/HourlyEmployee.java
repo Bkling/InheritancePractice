@@ -7,4 +7,8 @@ public class HourlyEmployee extends Employee {
     public double setHourlyWage(double wage) {
         return wage;
     }
+
+    public double setHoursWorked(double hours) {
+        return hours;
+    }
 }

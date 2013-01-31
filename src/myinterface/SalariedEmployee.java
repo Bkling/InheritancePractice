@@ -70,4 +70,8 @@ public class SalariedEmployee implements Employee {
     public double getWage(double wage) {
         return wage;
     }
+
+    public String setEmpId(String EmpId) {
+        return EmpId;
+    }
 }

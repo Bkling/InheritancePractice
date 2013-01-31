@@ -18,6 +18,7 @@ public class Startup {
         System.out.println("Age: " + he.getAge());
         System.out.println("SSN: " + he.getSsn());
         System.out.println("Hourly Wage: $" + he.getWage());
+        System.out.println("Hours Worked: " + he.setHoursWorked(60));
         System.out.println("");
 
         //This is the Salaried Class Employee\
@@ -35,6 +36,7 @@ public class Startup {
         System.out.println("Age: " + se.getAge());
         System.out.println("SSN: " + se.getSsn());
         System.out.println("Salary: $" + se.getWage());
+        System.out.println("Employee ID: " + se.setEmpId("1010"));
         System.out.println("");
 
         //This is the Salaried Plus Bonus Class Employee

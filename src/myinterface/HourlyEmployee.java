@@ -70,4 +70,8 @@ public class HourlyEmployee implements Employee {
     public double getWage(double wage) {
         return wage;
     }
+
+    public double setHoursWorked(double hours) {
+        return hours;
+    }
 }
